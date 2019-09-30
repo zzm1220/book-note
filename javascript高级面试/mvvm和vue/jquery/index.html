@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <input type="text" id="txt-title">
+        <button id="btn-submit">submit</button>
+    </div>
+    <div>
+        <ul id="ul-list"></ul>
+    </div>
+    <script>
+        var $text = $("#txt-title"),
+            $btnSubmit = $("#btn-submit"),
+            $ulList = $("#ul-list");
+        $btnSubmit.click(function(){
+            var textVal = $text.val()
+            if (!textVal) return
+            var $li = $('<li>' + textVal + '</li>')
+            $ulList.append($li)
+            $text.val("")
+        })
+    </script>
+</body>
+</html>
