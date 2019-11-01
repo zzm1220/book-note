@@ -1,0 +1,11 @@
+{
+  "name": "webpack-summary",
+  "version": "1.0.0",
+  "description": "webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhimin",
+  "license": "ISC"
+}
