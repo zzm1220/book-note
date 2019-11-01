@@ -1,0 +1,19 @@
+{
+  "name": "webpack-study",
+  "version": "1.0.0",
+  "description": "study webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./src/es/index.js --output ./output/es/main.js --module-bind js=babel-loader",
+    "build": "webpack --mode production ./src/es/index.js --output ./dist/es/main.js --module-bind js=babel-loader"
+  },
+  "author": "zhimin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}

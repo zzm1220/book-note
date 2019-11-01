@@ -1,0 +1,6 @@
+body {
+    background: blue;
+}
+.app {
+    background: url(~@assets/images/c1.png) no-repeat;
+}

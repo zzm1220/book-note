@@ -1,0 +1,9 @@
+### mongodb
+#### NoSQL数据库设计
+#### MongoDB安装，配置，GUI工具
+#### Nodejs中的Mongoose库
+### NoSQL
+1. NoSQL意义：
+    1. 易扩展，高性能，高可用
+    2. 较容易映射复杂数据
+    3. 无事物特性要求(ACID特性)
